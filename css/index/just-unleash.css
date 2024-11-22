@@ -1,0 +1,74 @@
+.just-unleash {
+    margin-top: 100px;
+    border-top: 1px solid #CBCBCB;
+}
+
+.just-unleash-inner {
+    margin-top: 116px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.just-unleash-title {
+
+    max-width: 450px;
+
+    text-align: start;
+    line-height: 54px;
+
+    span {
+        color: #C5C5C5;
+    }
+}
+
+
+.points {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    gap: 12px;
+    margin-bottom: 70px;
+}
+
+.point {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.just {
+    gap: 11px;
+    max-width: 220px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 650px;
+    width: 100%;
+}
+
+.content-right img {
+    width: 100%;
+}
+
+.just-unleash-btn {
+    .button {
+        svg {
+            stroke: #ffffff;
+        }
+
+        &:hover {
+            svg {
+                stroke: #141416;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,97 @@
+.collection {
+    margin-top: 120px;
+}
+
+.collection-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.collection-title {
+
+    margin-bottom: 90px;
+}
+
+.top-collection {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-spacing: 0 30px;
+    align-items: center;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.table th {
+    font-size: 22px;
+    font-weight: 500;
+    color: #93989A;
+    text-align: left;
+}
+
+.table td img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.table .collection-info {
+    display: flex;
+    align-items: center;
+}
+
+.table .collection-info .name {
+    font-weight: bold;
+    color: #333;
+}
+
+.table .collection-info .author {
+    font-size: 14px;
+    color: #777;
+}
+
+.table .percent-positive {
+    color: #10C352;
+    font-weight: bold;
+}
+
+.table .percent-negative {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.table td .eth-icon {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.table tr:last-child td {
+    border-bottom: none;
+}
+
+.table td {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.table td.owners,
+.table td.items {
+    text-align: center;
+}
+

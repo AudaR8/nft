@@ -1,0 +1,29 @@
+@media (max-width: 1070px) {
+    .avatar-inner {
+        flex-direction: column;
+    }
+
+    .profile-card {
+        max-width: 900px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .card-btn p {
+        font-size: 14px;
+    }
+
+    .stat__avatar {
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .profile-bio {
+        p {
+            font-size: 12px;
+        }
+    }
+}

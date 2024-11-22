@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import "/css/style/reset.css";
+@import "/css/style/main.css";
+@import "/css/style/header.css";
+@import "/css/style/header-media.css";
+@import "/css/style/footer.css";
+@import "/css/style/footer-media.css";
+
+
+/* Подключение обычного начертания */
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('/assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Подключение курсивного начертания */
+@font-face {
+    font-family: 'Poppins-Italic';
+    src: url('/assets/fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Подключение жирного начертания */
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('/assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('/assets/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Подключение жирного курсивного начертания */
+@font-face {
+    font-family: 'Poppins-BoldItalic';
+    src: url('/assets/fonts/Poppins/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('/assets/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('/assets/fonts/Inter/static/Inter_18pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('/assets/fonts/Inter/static/Inter_18pt-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('/assets/fonts/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

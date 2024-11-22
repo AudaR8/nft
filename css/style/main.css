@@ -1,0 +1,254 @@
+/* 100 — Thin (Тонкий)
+200 — Extra Light (Очень светлый)
+300 — Light (Светлый)
+400 — Normal (Обычный, стандартный вес)
+500 — Medium (Средний)
+600 — Semi Bold (Полужирный)
+700 — Bold (Жирный)
+800 — Extra Bold (Очень жирный)
+900 — Black (Чёрный, максимально жирный) */
+
+
+
+
+.title {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: #141416;
+
+}
+
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    padding: 20px;
+}
+
+/* основные кнопки */
+.button {
+
+    display: flex;
+    align-items: center;
+
+    background-color: #141416;
+    color: #fff;
+
+    padding: 15px 25px;
+    border-radius: 16px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #ffffff;
+
+    transition: all .3s ease;
+
+    &:hover {
+        background-color: #fff;
+        color: #141416;
+        border: 2px solid #141416;
+
+
+        transition: all .3s ease;
+
+    }
+}
+
+.button.white {
+    background-color: #ffffff;
+    color: #141416;
+    border: 2px solid #141416;
+
+    &:hover {
+        background-color: #141416;
+        color: #ffffff;
+    }
+}
+
+
+
+/* кнопки белые для переключения */
+.container-button-sl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #FCFCFD;
+    width: 160px;
+    height: 60px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    .button-sl img {
+        width: 25;
+        height: 25px;
+    }
+}
+
+.container-inner-button-sl {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 90px;
+}
+
+/* фильтры кнопки */
+.filtrs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 22px;
+    justify-content: center;
+}
+
+
+.filtr__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid 3px #141416;
+    border-radius: 13px;
+    padding: 16px 26px;
+    gap: 8px;
+    transition: background-color 0.6s ease;
+
+    svg {
+        fill: #141416
+    }
+}
+
+.filtr__btn:hover {
+    border-color: #ffff;
+    background-color: #141416;
+    color: #ffff;
+
+    svg {
+        fill: #ffff
+    }
+
+
+}
+
+
+/* Карточки */
+.card {
+    min-width: 280px;
+    max-height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 23px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+    padding: 20px;
+}
+
+
+.card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    .title__card {
+        margin-top: 20px;
+        align-items: start;
+        font-weight: 600;
+        font-size: 21px;
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.card__images {
+    border-radius: 24px;
+    max-width: 250px;
+    max-height: 250px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+
+.card-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 120px;
+    height: 50px;
+
+    .subtitle__card {
+        font-weight: 400;
+        font-size: 14px;
+        color: #94A3B8;
+        margin-bottom: 4px;
+        margin-top: 15px;
+    }
+
+
+    .price__p {
+        font-weight: 500;
+        font-size: 16px;
+        color: #141416;
+    }
+
+}
+
+
+
+.price__info {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.card__button {
+    max-width: 120px;
+    height: 50px;
+
+
+    padding: 16px;
+}
+
+
+
+/* стрелочка для переключения на др страницу с большенством карточек  */
+.btn-collections {
+    max-width: 1325px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+
+    a {
+        display: flex;
+        align-items: center;
+        color: #ACADB9;
+
+        svg {
+            fill: #ACADB9;
+        }
+    }
+}

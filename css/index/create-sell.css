@@ -1,0 +1,54 @@
+.create-sell {
+    margin-top: 200px;
+}
+
+.create-sell-content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.create-sell-text-info {
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+    padding-left: 30px;
+
+    .create-sell-btns {
+        margin-top: 50px;
+    }
+
+    h2 {
+        color: #ffffff;
+
+    }
+
+    p {
+        color: #D4D4D4;
+    }
+}
+
+
+
+.create-sell-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #141416;
+    border-radius: 30px;
+    padding: 31px;
+    align-self: center;
+}
+
+.create-sell-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.create-sell-content-right img {
+    box-shadow: 0 19px 52px rgb(255, 255, 255);
+    border-radius: 40px;
+}

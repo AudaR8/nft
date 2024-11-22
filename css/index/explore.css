@@ -1,0 +1,34 @@
+.explore {
+    margin-top: 100px;
+}
+
+.title-explore {
+    margin-bottom: 65px;
+}
+
+
+
+.slider-container_explore {
+    max-width: none;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.btn-expl {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    align-items: end;
+    width: 100%;
+    max-width: 1248px;
+
+    a {
+        margin-top: 0;
+
+    }
+}

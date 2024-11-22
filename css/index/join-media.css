@@ -1,0 +1,180 @@
+/* Адаптивные стили */
+@media (max-width: 1024px) {
+    .community-section {
+        height: 900px;
+    }
+
+    .center-text {
+        width: 80%;
+        gap: 25px;
+        /* Уменьшаем зазоры */
+    }
+
+    .center-text p {
+        font-size: 16px;
+        /* Уменьшаем размер шрифта */
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .community-section {
+        height: 500px;
+        /* Уменьшаем высоту */
+    }
+
+    .center-text {
+        width: 85%;
+        gap: 20px;
+        /* Еще больше уменьшаем зазоры */
+    }
+
+    .center-text .title {
+        font-size: 20px;
+        /* Уменьшаем заголовок */
+    }
+
+    .center-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .circle-svg {
+        max-width: 90%;
+        /* Уменьшаем SVG для мобильных */
+    }
+}
+
+@media (max-width: 480px) {
+    .join {
+        margin-top: 100px;
+        /* Уменьшаем отступ */
+    }
+
+    .community-section {
+        height: 400px;
+    }
+
+    .center-text {
+        width: 60%;
+        gap: 15px;
+    }
+
+    .center-text .title {
+        font-size: 18px;
+    }
+
+    .center-text p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .circle-svg {
+        max-width: 80%;
+        /* Дополнительное уменьшение */
+    }
+}
+
+@media (max-width: 400px) {
+    .join {
+        margin-top: 100px;
+        /* Уменьшаем отступ */
+    }
+
+    .join-inner {
+        padding: 0 20px;
+        /* Добавляем отступы для внутреннего контента */
+    }
+
+    .community-section {
+        max-width: 100%;
+        height: auto;
+        /* Устанавливаем автоматическую высоту */
+    }
+
+    .center-text {
+        width: 90%;
+        /* Делаем текст шире, чтобы занимал больше места */
+        gap: 20px;
+        /* Уменьшаем промежутки между элементами */
+    }
+
+    .center-text .title {
+        width: auto;
+        /* Убираем фиксированную ширину заголовка */
+        font-size: 20px;
+        /* Уменьшаем размер шрифта заголовка */
+    }
+
+    .center-text p {
+        font-size: 12px;
+        /* Уменьшаем размер шрифта текста */
+        line-height: 24px;
+        /* Корректируем высоту строк */
+    }
+
+    .circle-svg {
+        max-width: 300px;
+        /* Уменьшаем размер SVG круга */
+        height: 300px;
+        /* Уменьшаем высоту SVG круга */
+    }
+
+    button.button {
+        font-size: 14px;
+        /* Уменьшаем размер текста кнопки */
+        padding: 10px 20px;
+        /* Корректируем отступы кнопки */
+    }
+}
+
+@media (max-width: 370px) {
+    .join {
+        margin-top: 50px;
+        /* Еще больше сокращаем отступ сверху */
+    }
+
+    .join-inner {
+        padding: 0 15px;
+        /* Уменьшаем боковые отступы */
+    }
+
+    .community-section {
+        max-width: 100%;
+        height: auto;
+        /* Даем возможность высоте адаптироваться */
+    }
+
+    .center-text {
+        width: 100%;
+        /* Занимаем всю ширину экрана */
+        gap: 15px;
+        /* Сокращаем промежутки между элементами */
+    }
+
+    .center-text .title {
+        font-size: 18px;
+        /* Еще больше уменьшаем размер текста заголовка */
+        line-height: 22px;
+    }
+
+    .center-text p {
+        font-size: 14px;
+        /* Уменьшаем текстовый размер */
+        line-height: 20px;
+        /* Сокращаем высоту строки */
+    }
+
+    .circle-svg {
+        max-width: 250px;
+        /* Еще меньше SVG круг */
+        height: 250px;
+    }
+
+    button.button {
+        font-size: 12px;
+        /* Уменьшаем текст кнопки */
+        padding: 8px 16px;
+        /* Корректируем отступы */
+    }
+}

@@ -1,0 +1,19 @@
+@media (max-width: 500px) {
+    .faq-question {
+        & p {
+            font-size: 16px;
+
+        }
+    }
+
+    .faq-item {
+        padding: 10px 0;
+
+        svg {
+            width: 22px;
+            height: 23px;
+        }
+    }
+
+
+}

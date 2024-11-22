@@ -1,0 +1,50 @@
+@media (max-width: 800px) {
+
+    .table th:nth-child(n+5),
+    .table td:nth-child(n+5) {
+        display: none;
+    }
+
+
+    .explore-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+    .table th:nth-child(n+4),
+    .table td:nth-child(n+4) {
+        display: none;
+    }
+
+    .filtrs {
+
+        max-width: 311px;
+
+    }
+
+    .table td {
+        font-size: 20px;
+
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .table th:nth-child(n+3),
+    .table td:nth-child(n+3) {
+        display: none;
+    }
+
+
+
+
+
+}

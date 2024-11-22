@@ -1,0 +1,81 @@
+@media (max-width: 1200px) {
+
+
+    .search {
+        .search-form input {
+            padding: 21px 50px 21px 50px;
+
+        }
+    }
+
+
+
+}
+
+@media (max-width: 1100px) {
+    .search {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .search {
+        display: none;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+
+}
+
+/* Стили для мобильного меню */
+@media (max-width: 600px) {
+    .burger-menu {
+        display: flex;
+    }
+
+    .menu-list,
+    .search,
+    .header-btn {
+        display: none;
+    }
+
+    .menu-list.active {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        z-index: 10;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+}
+
+/* Адаптивность для мобильного устройства */
+@media (max-width: 500px) {
+    .burger-menu {
+        display: flex;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+   
+}

@@ -1,0 +1,37 @@
+@media (max-width: 800px) {
+    .discover-section-content-right {
+        display: none;
+    }
+
+    .content-features,
+    .content-btns {
+        justify-content: center;
+    }
+
+    .text-content {
+        align-items: center;
+    }
+
+
+    .text-content {
+        .title-h1 {
+            text-align: center;
+            font-size: 60px;
+        }
+
+    }
+
+    .discover-section-inner {
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .content-features {
+        flex-wrap: wrap;
+    }
+
+
+}

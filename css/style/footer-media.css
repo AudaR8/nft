@@ -1,0 +1,21 @@
+@media (max-width: 960px) {
+
+    .footer-nav {
+        flex-direction: column;
+    }
+
+    .nav-items {
+        gap: 30;
+        justify-content: space-between;
+    }
+
+    .footer-logo {
+        margin-bottom: 40px;
+    }
+
+    .footer-container {
+        padding: 50px;
+    }
+
+
+}

@@ -1,0 +1,430 @@
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+
+.avatar-inner {
+    display: flex;
+    gap: 132px;
+    padding: 30px;
+
+}
+
+.tab-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    color: #888;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.tab-button.active {
+    color: #141416;
+    font-weight: bold;
+    border-bottom: 3px solid #141416;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+    svg {
+        fill: #130F26;
+    }
+
+}
+
+.tab-button svg {
+    fill: #D2D2D2;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+/* Container */
+.profile-card {
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #D0D0D0;
+    margin-top: 30px;
+
+    gap: 109px;
+
+    position: relative;
+}
+
+.profile-picture {
+    width: 165px;
+    height: 165px;
+
+}
+
+.profile-info {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.profile-info h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.profile-info p {
+    color: #888;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.follow-button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Profile Stats */
+.profile-stats-avatar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-top: 43px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat__avatar {
+    h3 {
+        font-family: 'Inter-Medium';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+
+        color: #141416;
+
+    }
+
+    p {
+
+        font-family: 'Inter-Medium';
+        font-size: 10px;
+        line-height: 16px;
+
+        color: #848586;
+
+
+    }
+
+
+}
+
+.stat h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.stat p {
+    color: #888;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+/* Bio Section */
+.profile-bio {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: left;
+    margin-top: 116px;
+
+    h4 {
+        font-family: 'Poppins-Bold';
+
+        font-size: 25px;
+        color: #C5C5C5;
+        line-height: 40px;
+
+    }
+
+    p {
+        font-family: 'Poppins-Regular';
+        font-size: 14px;
+        color: #949494;
+        line-height: 177%;
+    }
+}
+
+
+
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+
+.socials-items-creator {
+    margin-top: 118px;
+    border-top: 1px solid #D0D0D0;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+    .socials__link {
+        svg {
+            fill: #000;
+            transition: all 0.6s ease;
+
+        }
+
+        &:hover {
+            svg {
+                fill: #d0babe;
+            }
+        }
+    }
+}
+
+.avatar-attachments {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.card-avatar {
+    min-width: 204px;
+    max-height: 292px;
+    padding: 15px;
+
+    .card__images {
+        max-width: 183px;
+        max-height: 183px;
+    }
+
+    .title__card {
+
+        font-size: 15px;
+    }
+
+    .price {
+        max-width: 88px;
+
+        .subtitle__card {
+            font-size: 10px;
+        }
+
+
+        .price__p {
+
+            font-size: 12px;
+
+        }
+
+    }
+
+    .card__button {
+        width: 88px;
+        height: 37px;
+
+
+        font-size: 10.2607px;
+
+        display: flex;
+        align-items: center;
+
+
+    }
+
+}
+
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.card-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    p {
+        font-family: 'Poppins-Regular';
+        font-size: 16px;
+    }
+}
+
+.activity-card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.activity-card__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.activity-card__avatar {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.activity-card__creator {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: start;
+}
+
+.activity-card__creator-verification {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+
+    font-size: 12px;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    color: #000;
+
+    svg {
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
+.activity-card__creator-name {
+    font-family: 'Poppins-SemiBold';
+    font-size: 17px;
+
+}
+
+.activity-card__sale {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    font-family: 'Poppins-Regular';
+
+
+    .activity-card__sale-label {
+        color: #14A760;
+        font-size: 12px;
+        line-height: normal;
+
+    }
+
+    .activity-card__sale-value {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        font-size: 16px;
+        line-height: normal;
+
+    }
+
+    .activity-card__sale-time {
+        color: #D2D2D2;
+        font-size: 12px;
+        line-height: normal;
+
+    }
+}
+
+.activity-card__stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-card__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: normal;
+
+    .activity-card__stat-label {
+        font-family: 'Poppins-Regular';
+
+        color: #828282;
+        font-size: 12px;
+    }
+}
+
+.activity-card__stat-value {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+    font-family: 'Poppins-Medium';
+
+    color: #000;
+    font-size: 16px;
+}
+
+.activity-card,
+.card-btn {
+    width: 100%;
+    min-width: 0;
+}

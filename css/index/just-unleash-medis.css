@@ -1,0 +1,31 @@
+@media (max-width: 800px) {
+
+    .points {
+        display: none;
+    }
+
+    .just-unleash-inner {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .content-left {
+        align-items: center;
+        max-width: none;
+    }
+
+    .just-unleash-title {
+        max-width: none;
+        text-align: center;
+        line-height: 54px;
+
+    }
+
+    .just-unleash-btn {
+        .button {
+            margin: 40px;
+        }
+
+
+    }
+}
