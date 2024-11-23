@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-@import "/css/style/reset.css";
-@import "/css/style/main.css";
-@import "/css/style/header.css";
-@import "/css/style/header-media.css";
-@import "/css/style/footer.css";
-@import "/css/style/footer-media.css";
+@import "reset.css";
+@import "main.css";
+@import "header.css";
+@import "header-media.css";
+@import "footer.css";
+@import "footer-media.css";
 
 
 /* Подключение обычного начертания */
