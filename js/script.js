@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 } else {
                     // Успешная авторизация для обычного пользователя
                     showNotification('Авторизация успешна!');
-                    window.location.href = 'index.html'; // Перенаправление на главную страницу
+                    window.location.href = '../index.html'; // Перенаправление на главную страницу
                 }
             }
         });
