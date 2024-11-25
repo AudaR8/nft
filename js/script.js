@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (existingUser) {
                 showNotification('Пользователь уже существует! Пожалуйста, авторизуйтесь.');
-                window.location.href = '/pages/auto.html'; // Перенаправление на страницу логина
+                window.location.href = 'auto.html'; // Перенаправление на страницу логина
             } else {
                 // Регистрация нового пользователя
                 const newUser = {
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // Автоматический редирект через 3 секунды
                 setTimeout(function () {
-                    window.location.href = '/pages/auto.html'; // Перенаправление на страницу логина
+                    window.location.href = 'auto.html'; // Перенаправление на страницу логина
                 }, 3000);
             }
         });
@@ -204,11 +204,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Проверка на админа
                 if (username === 'admin' && existingUser.password === 'admin123') { // Замените 'admin123' на реальный пароль администратора
                     showNotification('Добро пожаловать в админку!');
-                    window.location.href = '/pages/admin.html'; // Перенаправление на страницу админки
+                    window.location.href = 'admin.html'; // Перенаправление на страницу админки
                 } else {
                     // Успешная авторизация для обычного пользователя
                     showNotification('Авторизация успешна!');
-                    window.location.href = '/index.html'; // Перенаправление на главную страницу
+                    window.location.href = 'index.html'; // Перенаправление на главную страницу
                 }
             }
         });
