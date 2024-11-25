@@ -31,9 +31,9 @@ if (loginForm) {
 
         // Если найдено совпадение с администратором или пользователем
         if (username === adminCredentials.username && email === adminCredentials.email && password === adminCredentials.password) {
-            window.location.href = "/pages/admin.html";
+            window.location.href = "admin.html";
         } else if (username === userCredentials.username && email === userCredentials.email && password === userCredentials.password) {
-            window.location.href = "/index.html";
+            window.location.href = "index.html";
         } else {
             // Проверка на наличие нового пользователя
             const existingUser = storedUsers.find(user => user.username === username && user.email === email);
@@ -46,7 +46,7 @@ if (loginForm) {
                 storedUsers.push(newUser);
                 localStorage.setItem('users', JSON.stringify(storedUsers));
                 alert("Вы успешно зарегистрированы. Пожалуйста, войдите.");
-                window.location.href = "/pages/auto.html"; // Перенаправление на страницу входа
+                window.location.href = "auto.html"; // Перенаправление на страницу входа
             }
         }
     });
